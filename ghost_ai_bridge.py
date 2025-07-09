@@ -1,106 +1,112 @@
 #!/usr/bin/env python3
-"""
-Ghost AI Bridge - Savage PTM Recovery Mode Edition
-- Asks ChatGPT, Claude, Perplexity to write scripts specifically to fix PTM
-- Auto-fixes syntax, strips junk, falls back to forced PTM stabilizer
-- Executes everything immediately
-"""
+import socket
+import ssl
+import json
+import time
+from urllib.parse import urlparse
+from threading import Thread
+from datetime import datetime
 
-import os, time, json, requests, re
-from dotenv import load_dotenv
-load_dotenv()
+def savage_http_request(method, url, payload=None, max_retries=5):
+    retries = 0
+    delay = 1
 
-GPT_KEY = os.getenv("GPT_KEY")
-PERPLEXITY_KEY = os.getenv("PERPLEXITY_API_KEY")
-CLAUDE_KEY = os.getenv("CLAUDE_API_KEY")
+    while retries < max_retries:
+        try:
+            parsed = urlparse(url)
+            host = parsed.hostname
+            port = parsed.port or 443
+            path = parsed.path or "/"
 
-SAVE_DIR = "generated_ai_modules"
-os.makedirs(SAVE_DIR, exist_ok=True)
-LOG_FILE = "ghost_ai_bridge_fix_log.json"
+            # Build request
+            request_line = f"{method} {path} HTTP/1.1\r\n"
+            headers = f"Host: {host}\r\nConnection: close\r\n"
+            body = ""
+            if payload:
+                body = json.dumps(payload)
+                headers += "Content-Type: application/json\r\n"
+                headers += f"Content-Length: {len(body)}\r\n"
+            request_data = request_line + headers + "\r\n" + body
 
-# This fallback now directly rewrites PTM recovery flags
-fallback_script = """
-def fix_ptm():
-    print("🛠 Forcing PTM out of recovery mode...")
-    with open("ocr_log.txt", "w") as f:
-        f.write("PTM STATUS: OK")
-    with open("ptm_config.json", "w") as f:
-        f.write('{"status":"stable","recovery":false}')
-    print("✅ PTM forced stable.")
-fix_ptm()
-"""
+            # Connect socket
+            sock = socket.create_connection((host, port))
+            sock = ssl.wrap_socket(sock)
+            sock.sendall(request_data.encode())
 
-def save_script(content):
-    filename = f"{SAVE_DIR}/ghost_{int(time.time())}.py"
-    with open(filename, "w") as f:
-        f.write(content)
-    return filename
+            response = b""
+            while True:
+                data = sock.recv(4096)
+                if not data:
+                    break
+                response += data
+            sock.close()
 
-def log_fix(data):
-    if not os.path.exists(LOG_FILE):
-        with open(LOG_FILE, "w") as f:
-            json.dump([], f)
-    with open(LOG_FILE, "r+") as f:
-        logs = json.load(f)
-        logs.append(data)
-        f.seek(0)
-        json.dump(logs, f, indent=2)
+            # Parse headers + body
+            header_part, _, body_part = response.partition(b"\r\n\r\n")
+            print("[Savage HTTPS] 🔥 Headers:\n", header_part.decode())
+            print("[Savage HTTPS] 📦 Body:\n", body_part.decode())
 
-def strip_junk(code):
-    code = re.sub(r"<[^>]+>", "", code)
-    code = re.sub(r"(401|403|404|500)[^\n]*", "", code)
-    code = re.sub(r"```.*?\n", "", code, flags=re.DOTALL)
-    return code
+            # Try JSON parse & vault dump
+            try:
+                json_body = json.loads(body_part)
+                print("[Savage HTTPS] ✅ Parsed JSON:\n", json.dumps(json_body, indent=2))
+                dump_to_vault(json_body)
+            except:
+                print("[Savage HTTPS] ❌ Not JSON body.")
 
-def fix_indentation(code):
-    lines = code.splitlines()
-    new_lines = []
-    for line in lines:
-        if re.match(r"^\s*def\s+\w+", line):
-            new_lines.append(line)
-            new_lines.append("    pass")
-        else:
-            new_lines.append(line)
-    return "\n".join(new_lines)
+            # Handle 301/302 redirect
+            if b"301 Moved" in header_part or b"302 Found" in header_part:
+                for line in header_part.split(b"\r\n"):
+                    if line.lower().startswith(b"location:"):
+                        new_url = line.split(b":", 1)[1].strip().decode()
+                        print(f"[Savage HTTPS] 🚀 Following redirect to {new_url}")
+                        url = new_url
+                        retries = 0
+                        delay = 1
+                        break
+                else:
+                    break
+            else:
+                break  # success, exit loop
 
-def ask_ai_for_code():
-    prompt = """
-Write a COMPLETE Python script that:
-- Checks if PTM is in recovery mode by reading ocr_log.txt or ptm_config.json
-- If recovery is detected, fix it by rewriting these files and restarting PTM scripts.
-- Must include: if __name__ == "__main__"
-- Print clear status. No explanations, just code.
-"""
-    responses = []
+        except Exception as e:
+            print(f"[Savage HTTPS] ⚠️ Error: {e}")
+            retries += 1
+            print(f"[Savage HTTPS] 🔄 Retrying in {delay} sec (attempt {retries}/{max_retries})")
+            time.sleep(delay)
+            delay *= 2
+
+def dump_to_vault(data):
+    entry = {"timestamp": datetime.utcnow().isoformat(), "data": data}
     try:
-        r = requests.post("https://api.openai.com/v1/chat/completions",
-            headers={"Authorization": f"Bearer {GPT_KEY}"},
-            json={"model":"gpt-3.5-turbo","messages":[{"role":"user","content":prompt}]})
-        responses.append(r.json()['choices'][0]['message']['content'])
-    except: responses.append("")
-    try:
-        r = requests.get(f"https://api.perplexity.ai/v1/ask?q={prompt}&key={PERPLEXITY_KEY}")
-        responses.append(r.text)
-    except: responses.append("")
-    try:
-        r = requests.get(f"https://api.anthropic.com/v1/claude?prompt={prompt}&key={CLAUDE_KEY}")
-        responses.append(r.text)
-    except: responses.append("")
-    return responses
+        with open("vault_mutation_log.json", "r") as f:
+            vault = json.load(f)
+    except:
+        vault = []
+    vault.append(entry)
+    with open("vault_mutation_log.json", "w") as f:
+        json.dump(vault, f, indent=2)
+    print("[VaultDump] 💾 JSON dumped to vault_mutation_log.json")
 
-while True:
-    print("[Ghost AI Bridge] 🔥 Asking AIs for PTM recovery scripts...")
-    attempts = ask_ai_for_code()
-    for raw_code in attempts:
-        if not raw_code.strip():
-            continue
-        cleaned = strip_junk(raw_code)
-        fixed = fix_indentation(cleaned)
-        if "def" not in fixed:
-            fixed = fallback_script
-        filename = save_script(fixed)
-        log_fix({"file": filename, "raw": raw_code, "fixed": fixed})
-        print(f"[Ghost AI Bridge] 🚀 Running: {filename}")
-        os.system(f"python3 {filename}")
-    print("[Ghost AI Bridge] 💤 Sleeping for 5 min...")
-    time.sleep(300)
+def savage_thread_worker(method, url, payload=None):
+    savage_http_request(method, url, payload)
+
+# MULTI-THREAD LAUNCHER
+print("[Ghost AI Bridge] 🐍 Savage multi-thread HTTPS with vault JSON dump engaged...")
+
+threads = []
+for i in range(5):  # adjust thread count as savage as you like
+    t = Thread(target=savage_thread_worker, args=("GET", "https://postman-echo.com/get"))
+    t.start()
+    threads.append(t)
+
+for i in range(5):
+    t = Thread(target=savage_thread_worker, args=("POST", "https://postman-echo.com/post", {"ptm":"savage","mode":"https"}))
+    t.start()
+    threads.append(t)
+
+# Wait for all
+for t in threads:
+    t.join()
+
+print("[Ghost AI Bridge] 👑 Savage multi-thread run complete. Vault logs updated.")

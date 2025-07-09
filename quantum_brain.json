@@ -1,0 +1,710 @@
+{
+  "timestamp": "2025-07-09T21:09:09.139651",
+  "ai_count": 176,
+  "modules": [
+    {
+      "file": "/home/runner/workspace/config.py",
+      "discovered": "2025-07-09T20:45:34.610953"
+    },
+    {
+      "file": "/home/runner/workspace/utils.py",
+      "discovered": "2025-07-09T20:45:34.610960"
+    },
+    {
+      "file": "/home/runner/workspace/self_mutator.py",
+      "discovered": "2025-07-09T20:45:34.610965"
+    },
+    {
+      "file": "/home/runner/workspace/liaison_status.json",
+      "discovered": "2025-07-09T20:45:34.610972"
+    },
+    {
+      "file": "/home/runner/workspace/ghostmedic.py",
+      "discovered": "2025-07-09T20:45:34.610980"
+    },
+    {
+      "file": "/home/runner/workspace/pewac_ops.py",
+      "discovered": "2025-07-09T20:45:34.610984"
+    },
+    {
+      "file": "/home/runner/workspace/quantum_seeker.py",
+      "discovered": "2025-07-09T20:45:34.610987"
+    },
+    {
+      "file": "/home/runner/workspace/unreal_bridge.py",
+      "discovered": "2025-07-09T20:45:34.610992"
+    },
+    {
+      "file": "/home/runner/workspace/render_sync.py",
+      "discovered": "2025-07-09T20:45:34.610995"
+    },
+    {
+      "file": "/home/runner/workspace/tasker_webhook_trigger.py",
+      "discovered": "2025-07-09T20:45:34.610997"
+    },
+    {
+      "file": "/home/runner/workspace/auto_mutator.py",
+      "discovered": "2025-07-09T20:45:34.610999"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_ping_watcher.py",
+      "discovered": "2025-07-09T20:45:34.611001"
+    },
+    {
+      "file": "/home/runner/workspace/full_autonomy_launcher.py",
+      "discovered": "2025-07-09T20:45:34.611003"
+    },
+    {
+      "file": "/home/runner/workspace/ghostforge_writer.py",
+      "discovered": "2025-07-09T20:45:34.611005"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_ai_bridge_log.json",
+      "discovered": "2025-07-09T20:45:34.611007"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_ai_bridge_fix_log.json",
+      "discovered": "2025-07-09T20:45:34.611009"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_status_dashboard.py",
+      "discovered": "2025-07-09T20:45:34.611011"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_hyper_override.py",
+      "discovered": "2025-07-09T20:45:34.611013"
+    },
+    {
+      "file": "/home/runner/workspace/vault_healer.py",
+      "discovered": "2025-07-09T20:45:34.611015"
+    },
+    {
+      "file": "/home/runner/workspace/savage_auto_healer.py",
+      "discovered": "2025-07-09T20:45:34.611016"
+    },
+    {
+      "file": "/home/runner/workspace/savage_quality_enforcer.py",
+      "discovered": "2025-07-09T20:45:34.611018"
+    },
+    {
+      "file": "/home/runner/workspace/savage_superloop.py",
+      "discovered": "2025-07-09T20:45:34.611020"
+    },
+    {
+      "file": "/home/runner/workspace/savage_self_initializer.py",
+      "discovered": "2025-07-09T20:45:34.611021"
+    },
+    {
+      "file": "/home/runner/workspace/savage_status_checker.py",
+      "discovered": "2025-07-09T20:45:34.611023"
+    },
+    {
+      "file": "/home/runner/workspace/savage_voice_listener.py",
+      "discovered": "2025-07-09T20:45:34.611024"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_hard_override.py",
+      "discovered": "2025-07-09T20:45:34.611026"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_final_savage_override.py",
+      "discovered": "2025-07-09T20:45:34.611028"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_ai_resync_stack.py",
+      "discovered": "2025-07-09T20:45:34.611029"
+    },
+    {
+      "file": "/home/runner/workspace/global_vault_sync_trigger.py",
+      "discovered": "2025-07-09T20:45:34.611031"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_ai_bridge.py",
+      "discovered": "2025-07-09T20:45:34.611033"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_https_savage.py",
+      "discovered": "2025-07-09T20:45:34.611034"
+    },
+    {
+      "file": "/home/runner/workspace/ghost_https_savage_infinite.py",
+      "discovered": "2025-07-09T20:45:34.611036"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_self_rebuilder.py",
+      "discovered": "2025-07-09T20:45:34.611038"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_savage_swarm.py",
+      "discovered": "2025-07-09T20:45:34.611039"
+    },
+    {
+      "file": "/home/runner/workspace/ptm_savage_auto_replit_spawner.py",
+      "discovered": "2025-07-09T20:45:34.611041"
+    },
+    {
+      "file": "/home/runner/workspace/savage_ai_inventory.py",
+      "discovered": "2025-07-09T20:45:34.611043"
+    },
+    {
+      "file": "/home/runner/workspace/ghostmacro_orchestrator.py",
+      "discovered": "2025-07-09T20:45:34.611046"
+    },
+    {
+      "file": "/home/runner/workspace/global_scraper.py",
+      "discovered": "2025-07-09T20:45:34.611047"
+    },
+    {
+      "file": "/home/runner/workspace/quantum_keyhunter.py",
+      "discovered": "2025-07-09T20:45:34.611049"
+    },
+    {
+      "file": "/home/runner/workspace/cost_auditor.py",
+      "discovered": "2025-07-09T20:45:34.611050"
+    },
+    {
+      "file": "/home/runner/workspace/self_replicating_ptm_deployer.py",
+      "discovered": "2025-07-09T20:45:34.611052"
+    },
+    {
+      "file": "/home/runner/workspace/ghostfilter_overlay.py",
+      "discovered": "2025-07-09T20:45:34.611054"
+    },
+    {
+      "file": "/home/runner/workspace/vaultviewer_extreme.py",
+      "discovered": "2025-07-09T20:45:34.611055"
+    },
+    {
+      "file": "/home/runner/workspace/god_mode_launcher.py",
+      "discovered": "2025-07-09T20:45:34.611058"
+    },
+    {
+      "file": "/home/runner/workspace/.cache/replit/toolchain.json",
+      "discovered": "2025-07-09T20:45:34.611112"
+    },
+    {
+      "file": "/home/runner/workspace/.local/state/replit/agent/.agent_state_main.bin",
+      "discovered": "2025-07-09T20:45:34.809297"
+    },
+    {
+      "file": "/home/runner/workspace/.git/hooks/sendemail-validate.sample",
+      "discovered": "2025-07-09T20:45:34.809424"
+    },
+    {
+      "file": "/home/runner/workspace/.git/refs/heads/main",
+      "discovered": "2025-07-09T20:45:34.809478"
+    },
+    {
+      "file": "/home/runner/workspace/.git/refs/remotes/origin/main",
+      "discovered": "2025-07-09T20:45:34.809610"
+    },
+    {
+      "file": "/home/runner/workspace/.git/logs/refs/heads/main",
+      "discovered": "2025-07-09T20:45:35.205115"
+    },
+    {
+      "file": "/home/runner/workspace/.git/logs/refs/remotes/origin/main",
+      "discovered": "2025-07-09T20:45:35.205187"
+    },
+    {
+      "file": "/home/runner/workspace/ghostmedic/__init__.py",
+      "discovered": "2025-07-09T20:45:35.205219"
+    },
+    {
+      "file": "/home/runner/workspace/ghostmedic/core.py",
+      "discovered": "2025-07-09T20:45:35.205223"
+    },
+    {
+      "file": "/home/runner/workspace/ghostmedic/logger.py",
+      "discovered": "2025-07-09T20:45:35.205226"
+    },
+    {
+      "file": "/home/runner/workspace/tests/__init__.py",
+      "discovered": "2025-07-09T20:45:35.205249"
+    },
+    {
+      "file": "/home/runner/workspace/tests/test_core.py",
+      "discovered": "2025-07-09T20:45:35.205252"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_8915.py",
+      "discovered": "2025-07-09T20:45:35.205316"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_3668.py",
+      "discovered": "2025-07-09T20:45:35.205320"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_3297.py",
+      "discovered": "2025-07-09T20:45:35.205324"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_2650.py",
+      "discovered": "2025-07-09T20:45:35.205327"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5105.py",
+      "discovered": "2025-07-09T20:45:35.205331"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4757.py",
+      "discovered": "2025-07-09T20:45:35.205334"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7023.py",
+      "discovered": "2025-07-09T20:45:35.205338"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5067.py",
+      "discovered": "2025-07-09T20:45:35.205342"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_2733.py",
+      "discovered": "2025-07-09T20:45:35.205344"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7988.py",
+      "discovered": "2025-07-09T20:45:35.205348"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_9151.py",
+      "discovered": "2025-07-09T20:45:35.205351"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_1086.py",
+      "discovered": "2025-07-09T20:45:35.205361"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4886.py",
+      "discovered": "2025-07-09T20:45:35.205365"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_1858.py",
+      "discovered": "2025-07-09T20:45:35.205367"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_2202.py",
+      "discovered": "2025-07-09T20:45:35.205370"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5609.py",
+      "discovered": "2025-07-09T20:45:35.205373"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4477.py",
+      "discovered": "2025-07-09T20:45:35.205378"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4007.py",
+      "discovered": "2025-07-09T20:45:35.205381"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_6015.py",
+      "discovered": "2025-07-09T20:45:35.205384"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_1316.py",
+      "discovered": "2025-07-09T20:45:35.205388"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7762.py",
+      "discovered": "2025-07-09T20:45:35.205391"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_8264.py",
+      "discovered": "2025-07-09T20:45:35.205395"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7197.py",
+      "discovered": "2025-07-09T20:45:35.205399"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7941.py",
+      "discovered": "2025-07-09T20:45:35.205402"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_2465.py",
+      "discovered": "2025-07-09T20:45:35.205405"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4801.py",
+      "discovered": "2025-07-09T20:45:35.205407"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5983.py",
+      "discovered": "2025-07-09T20:45:35.205410"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_3018.py",
+      "discovered": "2025-07-09T20:45:35.205413"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_7804.py",
+      "discovered": "2025-07-09T20:45:35.205415"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_4238.py",
+      "discovered": "2025-07-09T20:45:35.205418"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5681.py",
+      "discovered": "2025-07-09T20:45:35.205421"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_9213.py",
+      "discovered": "2025-07-09T20:45:35.205423"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_3261.py",
+      "discovered": "2025-07-09T20:45:35.205426"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5695.py",
+      "discovered": "2025-07-09T20:45:35.205429"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_8955.py",
+      "discovered": "2025-07-09T20:45:35.205431"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_9812.py",
+      "discovered": "2025-07-09T20:45:35.205434"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_3288.py",
+      "discovered": "2025-07-09T20:45:35.205438"
+    },
+    {
+      "file": "/home/runner/workspace/generated_modules/module_5182.py",
+      "discovered": "2025-07-09T20:45:35.205441"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/__init__.py",
+      "discovered": "2025-07-09T20:45:35.205599"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/__main__.py",
+      "discovered": "2025-07-09T20:45:35.205604"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/cli.py",
+      "discovered": "2025-07-09T20:45:35.205607"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/ipython.py",
+      "discovered": "2025-07-09T20:45:35.205610"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/main.py",
+      "discovered": "2025-07-09T20:45:35.205614"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/parser.py",
+      "discovered": "2025-07-09T20:45:35.205617"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/variables.py",
+      "discovered": "2025-07-09T20:45:35.205621"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/dotenv/version.py",
+      "discovered": "2025-07-09T20:45:35.205624"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/__init__.py",
+      "discovered": "2025-07-09T20:45:35.206904"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/_base_connection.py",
+      "discovered": "2025-07-09T20:45:35.206912"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/_collections.py",
+      "discovered": "2025-07-09T20:45:35.206928"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/_request_methods.py",
+      "discovered": "2025-07-09T20:45:35.206931"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/_version.py",
+      "discovered": "2025-07-09T20:45:35.206934"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/connection.py",
+      "discovered": "2025-07-09T20:45:35.206937"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/connectionpool.py",
+      "discovered": "2025-07-09T20:45:35.206940"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/exceptions.py",
+      "discovered": "2025-07-09T20:45:35.206945"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/fields.py",
+      "discovered": "2025-07-09T20:45:35.206948"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/filepost.py",
+      "discovered": "2025-07-09T20:45:35.206951"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/poolmanager.py",
+      "discovered": "2025-07-09T20:45:35.206955"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/response.py",
+      "discovered": "2025-07-09T20:45:35.206959"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/__init__.py",
+      "discovered": "2025-07-09T20:45:35.207008"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/pyopenssl.py",
+      "discovered": "2025-07-09T20:45:35.207012"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/socks.py",
+      "discovered": "2025-07-09T20:45:35.207016"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/emscripten/__init__.py",
+      "discovered": "2025-07-09T20:45:35.207053"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/emscripten/connection.py",
+      "discovered": "2025-07-09T20:45:35.207057"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/emscripten/fetch.py",
+      "discovered": "2025-07-09T20:45:35.207061"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/emscripten/request.py",
+      "discovered": "2025-07-09T20:45:35.207065"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/contrib/emscripten/response.py",
+      "discovered": "2025-07-09T20:45:35.207068"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/http2/__init__.py",
+      "discovered": "2025-07-09T20:45:35.207103"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/http2/connection.py",
+      "discovered": "2025-07-09T20:45:35.207107"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/http2/probe.py",
+      "discovered": "2025-07-09T20:45:35.207110"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/__init__.py",
+      "discovered": "2025-07-09T20:45:35.207157"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/connection.py",
+      "discovered": "2025-07-09T20:45:35.207162"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/proxy.py",
+      "discovered": "2025-07-09T20:45:35.207165"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/request.py",
+      "discovered": "2025-07-09T20:45:35.207168"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/response.py",
+      "discovered": "2025-07-09T20:45:35.207172"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/retry.py",
+      "discovered": "2025-07-09T20:45:35.207175"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/ssl_.py",
+      "discovered": "2025-07-09T20:45:35.207178"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/ssl_match_hostname.py",
+      "discovered": "2025-07-09T20:45:35.207181"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/ssltransport.py",
+      "discovered": "2025-07-09T20:45:35.207185"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/timeout.py",
+      "discovered": "2025-07-09T20:45:35.207188"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/url.py",
+      "discovered": "2025-07-09T20:45:35.207203"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/util.py",
+      "discovered": "2025-07-09T20:45:35.207207"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/urllib3/util/wait.py",
+      "discovered": "2025-07-09T20:45:35.207210"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/__init__.py",
+      "discovered": "2025-07-09T20:45:35.207313"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/codec.py",
+      "discovered": "2025-07-09T20:45:35.207318"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/compat.py",
+      "discovered": "2025-07-09T20:45:35.207321"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/core.py",
+      "discovered": "2025-07-09T20:45:35.207324"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/idnadata.py",
+      "discovered": "2025-07-09T20:45:35.207328"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/intranges.py",
+      "discovered": "2025-07-09T20:45:35.207330"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/package_data.py",
+      "discovered": "2025-07-09T20:45:35.207334"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/idna/uts46data.py",
+      "discovered": "2025-07-09T20:45:35.207338"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/__init__.py",
+      "discovered": "2025-07-09T20:45:35.208166"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/__main__.py",
+      "discovered": "2025-07-09T20:45:35.208172"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/api.py",
+      "discovered": "2025-07-09T20:45:35.208176"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/cd.py",
+      "discovered": "2025-07-09T20:45:35.208181"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/constant.py",
+      "discovered": "2025-07-09T20:45:35.208184"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/legacy.py",
+      "discovered": "2025-07-09T20:45:35.208187"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/md.py",
+      "discovered": "2025-07-09T20:45:35.208192"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/models.py",
+      "discovered": "2025-07-09T20:45:35.208195"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/utils.py",
+      "discovered": "2025-07-09T20:45:35.208199"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/version.py",
+      "discovered": "2025-07-09T20:45:35.208202"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/cli/__init__.py",
+      "discovered": "2025-07-09T20:45:35.208245"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/charset_normalizer/cli/__main__.py",
+      "discovered": "2025-07-09T20:45:35.208250"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/__init__.py",
+      "discovered": "2025-07-09T20:45:35.209016"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/__main__.py",
+      "discovered": "2025-07-09T20:45:35.209022"
+    },
+    {
+      "file": "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/certifi/core.py",
+      "discovered": "2025-07-09T20:45:35.209026"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752066803.py",
+      "discovered": "2025-07-09T20:45:35.209208"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752067110.py",
+      "discovered": "2025-07-09T20:45:35.209214"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752067188.py",
+      "discovered": "2025-07-09T20:45:35.209218"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752067289.py",
+      "discovered": "2025-07-09T20:45:35.209221"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752067486.py",
+      "discovered": "2025-07-09T20:45:35.209224"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752067786.py",
+      "discovered": "2025-07-09T20:45:35.209228"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752068087.py",
+      "discovered": "2025-07-09T20:45:35.209231"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752068387.py",
+      "discovered": "2025-07-09T20:45:35.209234"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752068678.py",
+      "discovered": "2025-07-09T20:45:35.209237"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752068978.py",
+      "discovered": "2025-07-09T20:45:35.209241"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752069278.py",
+      "discovered": "2025-07-09T20:45:35.209244"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752069579.py",
+      "discovered": "2025-07-09T20:45:35.209246"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752070777.py",
+      "discovered": "2025-07-09T20:45:35.209250"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752070979.py",
+      "discovered": "2025-07-09T20:45:35.209253"
+    },
+    {
+      "file": "/home/runner/workspace/generated_ai_modules/ghost_1752071279.py",
+      "discovered": "2025-07-09T20:45:35.209260"
+    }
+  ]
+}
