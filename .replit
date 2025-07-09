@@ -25,7 +25,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python main.py --mode interactive"
+args = "python ghostmedic.py --mode interactive"
 
 [[workflows.workflow]]
 name = "run_ghostmedic"
@@ -33,4 +33,4 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python main.py --mode interactive"
+args = "python ghostmedic.py --mode interactive"
