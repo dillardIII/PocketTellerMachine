@@ -1,0 +1,36 @@
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "GhostMedic Bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "run_ghostmedic"
+
+[[workflows.workflow]]
+name = "GhostMedic Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py --mode interactive"
+
+[[workflows.workflow]]
+name = "run_ghostmedic"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py --mode interactive"
