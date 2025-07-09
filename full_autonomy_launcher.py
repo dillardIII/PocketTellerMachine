@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Full Savage Empire Autonomy Launcher
-- Launches all core bots for your unstoppable empire.
-- Includes Unreal, Render, Tasker bridge triggers.
-- Keeps running until manually stopped.
+FULL AUTONOMY LAUNCHER
+- Launches your entire savage empire stack
+- Includes PTM ping watcher to keep PTM out of recovery mode
+- Unreal, Render, Tasker, Quantum, PEWAC, GhostForge, and more
 """
 
 import subprocess
@@ -16,7 +16,8 @@ COMMANDS = [
     "python3 quantum_seeker.py",
     "python3 unreal_bridge.py",
     "python3 render_sync.py",
-    "python3 tasker_webhook_trigger.py"
+    "python3 tasker_webhook_trigger.py",
+    "python3 ptm_ping_watcher.py"
 ]
 
 def launch_empire():
