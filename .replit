@@ -34,3 +34,7 @@ author = "agent"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python ghostmedic.py --mode interactive"
+
+[[ports]]
+localPort = 5566
+externalPort = 80

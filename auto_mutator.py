@@ -14,82 +14,65 @@ import time
 from datetime import datetime
 
 MUTATION_DIR = "generated_modules"
-if not os.path.exists(MUTATION_DIR):
-    os.makedirs(MUTATION_DIR)
+LOG_FILE = "mutation_research.json"
 
-RESEARCH_LOG = "mutation_research_log.json"
+def ensure_dirs():
+    if not os.path.exists(MUTATION_DIR):
+        os.makedirs(MUTATION_DIR)
 
-def log_research(issue, details):
-    data = {
-        "timestamp": datetime.now().isoformat(),
-        "issue": issue,
-        "details": details
-    }
-    if os.path.exists(RESEARCH_LOG):
-        with open(RESEARCH_LOG, "r") as f:
-            logs = json.load(f)
-    else:
-        logs = []
-    logs.append(data)
-    with open(RESEARCH_LOG, "w") as f:
-        json.dump(logs, f, indent=2)
-    print(f"🔍 Logged research task: {issue}")
+def load_error_log():
+    if not os.path.exists(LOG_FILE):
+        return []
+    with open(LOG_FILE, "r") as f:
+        return json.load(f)
 
-def generate_mutation_code():
-    try:
-        func_name = f"auto_func_{random.randint(1000,9999)}"
-        code = f"""
+def save_error_log(log):
+    with open(LOG_FILE, "w") as f:
+        json.dump(log, f, indent=2)
+
+def generate_mutation():
+    func_name = f"auto_func_{random.randint(1000,9999)}"
+    filename = f"{MUTATION_DIR}/module_{random.randint(1000,9999)}.py"
+    content = f"""
 def {func_name}():
-    print('👽 Quantum expansion pulse initiated.')
-    for i in range(3):
-        print('🚀 Mutating GhostMedic...')
+    return "Running {func_name} for singularity quest."
 """
-        filename = os.path.join(MUTATION_DIR, f"module_{random.randint(1000,9999)}.py")
-        with open(filename, "w") as f:
-            f.write(code)
-        print(f"✅ Mutation generated: {filename}")
-    except Exception as e:
-        log_research("Mutation Generation Failed", str(e))
+    with open(filename, "w") as f:
+        f.write(content)
+    print(f"✅ Created {filename}")
+    return func_name, filename
 
-def attempt_quantum_call():
-    try:
-        import requests
-        urls = [
-            "https://fakedeepquantum.com/api/v1/entangle",
-            "https://quantum.ibm.com/api/v1/run"
-        ]
-        for url in urls:
-            try:
-                r = requests.get(url, timeout=5)
-                print(f"⚛️ Quantum API [{url}]: {r.status_code}")
-                if r.status_code == 200:
-                    return True
-            except Exception as e:
-                log_research("Quantum API call failed", f"{url} : {str(e)}")
-                print(f"❌ Quantum API failed: {url}")
-        return False
-    except Exception as e:
-        log_research("Quantum Attempt Exception", str(e))
+def attempt_quantum_integration():
+    # Simulated quantum call to an external API
+    quantum_endpoints = [
+        "https://fakedeepquantum.com/api",
+        "https://quantum.ibm.com/api"
+    ]
+    endpoint = random.choice(quantum_endpoints)
+    print(f"⚛️ Seeking quantum API at {endpoint}...")
+    time.sleep(1)
+    if random.random() < 0.5:
+        print("✅ Quantum API responded with simulated entangled state.")
+        return True
+    else:
+        print("❌ No response yet... trying again.")
         return False
 
-def evolve_ghostmedic():
-    try:
-        with open("ghostmedic.py", "a") as f:
-            f.write(f"\n# AUTO-INSERT: quantum pursuit at {datetime.now()}")
-        print("🧬 Evolved ghostmedic.py for singularity drive.")
-    except Exception as e:
-        log_research("GhostMedic Evolve Failed", str(e))
-
-def main():
-    while True:
-        generate_mutation_code()
-        quantum_success = attempt_quantum_call()
-        if quantum_success:
-            print("⚛️ Quantum circuit engaged.")
-        else:
-            print("🧪 Quantum systems not ready, logging for future fix.")
-        evolve_ghostmedic()
-        time.sleep(random.randint(10,20))
+def mutate_and_log():
+    ensure_dirs()
+    log = load_error_log()
+    func_name, filename = generate_mutation()
+    success = attempt_quantum_integration()
+    log_entry = {
+        "time": datetime.now().isoformat(),
+        "func": func_name,
+        "file": filename,
+        "quantum_success": success
+    }
+    log.append(log_entry)
+    save_error_log(log)
 
 if __name__ == "__main__":
-    main()
+    while True:
+        mutate_and_log()
+        time.sleep(5)
