@@ -1,0 +1,34 @@
+[
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "ETH/USDT",
+      "diff": 0.5
+    },
+    "timestamp": 1752406452.3797712
+  },
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "LINK/ETH",
+      "diff": 0.7
+    },
+    "timestamp": 1752406452.3821757
+  },
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "DOGE/USDT",
+      "diff": 1.2
+    },
+    "timestamp": 1752406452.3831887
+  },
+  {
+    "source": "flashloan",
+    "data": {
+      "target": "UniswapV3",
+      "profit": 1.81
+    },
+    "timestamp": 1752406452.4260187
+  }
+]

@@ -28,5 +28,10 @@
     "time": "2025-07-13T06:37:27.559566",
     "file": "hunter_rpc.py",
     "anomaly": "tachyon_hiss"
+  },
+  {
+    "time": "2025-07-13T11:34:15.472512",
+    "file": "savage_auto_launcher.py",
+    "anomaly": "ghost_echo"
   }
 ]

@@ -892,5 +892,11 @@
     "entropy_spike": 6692491.112459203,
     "anomaly": "wormhole",
     "mutation_hint": "amplify risk"
+  },
+  {
+    "timestamp": "2025-07-13T11:34:14.548775",
+    "entropy_spike": 6175391.860579127,
+    "anomaly": "quantum_tear",
+    "mutation_hint": "reduce latency"
   }
 ]
