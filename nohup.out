@@ -1,0 +1,6 @@
+python3: can't open file '/home/runner/workspace/ghost_autocoder.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "/home/runner/workspace/ghost_brain.py", line 4, in <module>
+    from modules.bridge_launcher import start_bridge
+ModuleNotFoundError: No module named 'modules'
+python3: can't open file '/home/runner/workspace/self_rebuild_watcher.py': [Errno 2] No such file or directory

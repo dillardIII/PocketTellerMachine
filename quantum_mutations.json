@@ -1,0 +1,32 @@
+[
+  {
+    "time": "2025-07-13T06:36:27.554731",
+    "file": "ghost_brain.py",
+    "anomaly": "tachyon_hiss"
+  },
+  {
+    "time": "2025-07-13T06:36:39.555315",
+    "file": "self_preservation_logic.py",
+    "anomaly": "wormhole"
+  },
+  {
+    "time": "2025-07-13T06:36:51.557174",
+    "file": "ghost_brain.py",
+    "anomaly": "tachyon_hiss"
+  },
+  {
+    "time": "2025-07-13T06:37:03.557957",
+    "file": "self_preservation_logic.py",
+    "anomaly": "tachyon_hiss"
+  },
+  {
+    "time": "2025-07-13T06:37:15.558759",
+    "file": "drop_agent.py",
+    "anomaly": "ghost_echo"
+  },
+  {
+    "time": "2025-07-13T06:37:27.559566",
+    "file": "hunter_rpc.py",
+    "anomaly": "tachyon_hiss"
+  }
+]

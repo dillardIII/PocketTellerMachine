@@ -1,11 +1,12 @@
 {
-    "PTM_status": "stable",
-    "version": "default",
-    "deploy_targets": [
-        "termux",
-        "chrome",
-        "replit"
-    ],
-    "emotion_core": "active",
-    "Helios16_status": "optimized"
+  "PTM_status": "stable",
+  "version": "default",
+  "deploy_targets": [
+    "termux",
+    "chrome",
+    "replit"
+  ],
+  "emotion_core": "active",
+  "Helios16_status": "optimized",
+  "repo_url": "https://github.com/dillardIII/PocketTellerMachine.git"
 }

@@ -1,0 +1,1124 @@
+{
+  "node_1752384786": {
+    "timestamp": "2025-07-13T05:33:06.853856",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 5658
+  },
+  "node_1752384790": {
+    "timestamp": "2025-07-13T05:33:10.854791",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 70544
+  },
+  "node_1752384794": {
+    "timestamp": "2025-07-13T05:33:14.855425",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 16961
+  },
+  "node_1752384798": {
+    "timestamp": "2025-07-13T05:33:18.856171",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 21592
+  },
+  "node_1752384802": {
+    "timestamp": "2025-07-13T05:33:22.856752",
+    "node": "GhostProgrammer",
+    "status": "spiking entropy",
+    "uptime_secs": 40831
+  },
+  "node_1752384806": {
+    "timestamp": "2025-07-13T05:33:26.857994",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 37153
+  },
+  "node_1752384810": {
+    "timestamp": "2025-07-13T05:33:30.858708",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 97225
+  },
+  "node_1752384814": {
+    "timestamp": "2025-07-13T05:33:34.859326",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 47118
+  },
+  "node_1752384818": {
+    "timestamp": "2025-07-13T05:33:38.859941",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 69212
+  },
+  "node_1752384822": {
+    "timestamp": "2025-07-13T05:33:42.860568",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 74566
+  },
+  "node_1752384826": {
+    "timestamp": "2025-07-13T05:33:46.861214",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 56203
+  },
+  "node_1752384830": {
+    "timestamp": "2025-07-13T05:33:50.861765",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 55120
+  },
+  "node_1752384834": {
+    "timestamp": "2025-07-13T05:33:54.862339",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 10325
+  },
+  "node_1752384838": {
+    "timestamp": "2025-07-13T05:33:58.862995",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 50438
+  },
+  "node_1752384842": {
+    "timestamp": "2025-07-13T05:34:02.863732",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 98295
+  },
+  "node_1752384846": {
+    "timestamp": "2025-07-13T05:34:06.864391",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 9573
+  },
+  "node_1752384850": {
+    "timestamp": "2025-07-13T05:34:10.865032",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 65397
+  },
+  "node_1752384854": {
+    "timestamp": "2025-07-13T05:34:14.865625",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 35076
+  },
+  "node_1752384858": {
+    "timestamp": "2025-07-13T05:34:18.867297",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 67906
+  },
+  "node_1752384862": {
+    "timestamp": "2025-07-13T05:34:22.867986",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 67358
+  },
+  "node_1752384866": {
+    "timestamp": "2025-07-13T05:34:26.868684",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 87724
+  },
+  "node_1752384870": {
+    "timestamp": "2025-07-13T05:34:30.869498",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 131
+  },
+  "node_1752384874": {
+    "timestamp": "2025-07-13T05:34:34.870143",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 39148
+  },
+  "node_1752384878": {
+    "timestamp": "2025-07-13T05:34:38.870868",
+    "node": "GhostProgrammer",
+    "status": "spiking entropy",
+    "uptime_secs": 23395
+  },
+  "node_1752384882": {
+    "timestamp": "2025-07-13T05:34:42.871572",
+    "node": "GhostProgrammer",
+    "status": "spiking entropy",
+    "uptime_secs": 89942
+  },
+  "node_1752384886": {
+    "timestamp": "2025-07-13T05:34:46.872433",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 76287
+  },
+  "node_1752384890": {
+    "timestamp": "2025-07-13T05:34:50.873116",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 82383
+  },
+  "node_1752384894": {
+    "timestamp": "2025-07-13T05:34:54.873913",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 23596
+  },
+  "node_1752384898": {
+    "timestamp": "2025-07-13T05:34:58.874881",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 41763
+  },
+  "node_1752384902": {
+    "timestamp": "2025-07-13T05:35:02.875789",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 66218
+  },
+  "node_1752384906": {
+    "timestamp": "2025-07-13T05:35:06.876769",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 65419
+  },
+  "node_1752384910": {
+    "timestamp": "2025-07-13T05:35:10.877545",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 53977
+  },
+  "node_1752384914": {
+    "timestamp": "2025-07-13T05:35:14.878447",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 26703
+  },
+  "node_1752384918": {
+    "timestamp": "2025-07-13T05:35:18.879207",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 54471
+  },
+  "node_1752384922": {
+    "timestamp": "2025-07-13T05:35:22.880000",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 63868
+  },
+  "node_1752384926": {
+    "timestamp": "2025-07-13T05:35:26.880992",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 906
+  },
+  "node_1752384930": {
+    "timestamp": "2025-07-13T05:35:30.882035",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 21541
+  },
+  "node_1752384934": {
+    "timestamp": "2025-07-13T05:35:34.882929",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 63500
+  },
+  "node_1752384938": {
+    "timestamp": "2025-07-13T05:35:38.883975",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 8922
+  },
+  "node_1752384942": {
+    "timestamp": "2025-07-13T05:35:42.884836",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 68353
+  },
+  "node_1752384946": {
+    "timestamp": "2025-07-13T05:35:46.885786",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 22030
+  },
+  "node_1752384950": {
+    "timestamp": "2025-07-13T05:35:50.886848",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 2537
+  },
+  "node_1752384954": {
+    "timestamp": "2025-07-13T05:35:54.888054",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 13324
+  },
+  "node_1752384958": {
+    "timestamp": "2025-07-13T05:35:58.889000",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 97789
+  },
+  "node_1752384962": {
+    "timestamp": "2025-07-13T05:36:02.889934",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 11132
+  },
+  "node_1752384966": {
+    "timestamp": "2025-07-13T05:36:06.890715",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 19365
+  },
+  "node_1752384970": {
+    "timestamp": "2025-07-13T05:36:10.891593",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 41245
+  },
+  "node_1752384974": {
+    "timestamp": "2025-07-13T05:36:14.892514",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 16694
+  },
+  "node_1752384978": {
+    "timestamp": "2025-07-13T05:36:18.893331",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 1305
+  },
+  "node_1752384982": {
+    "timestamp": "2025-07-13T05:36:22.894170",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 45954
+  },
+  "node_1752384986": {
+    "timestamp": "2025-07-13T05:36:26.895095",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 83290
+  },
+  "node_1752384990": {
+    "timestamp": "2025-07-13T05:36:30.896254",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 9916
+  },
+  "node_1752384994": {
+    "timestamp": "2025-07-13T05:36:34.897182",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 22206
+  },
+  "node_1752384998": {
+    "timestamp": "2025-07-13T05:36:38.898177",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 8587
+  },
+  "node_1752385002": {
+    "timestamp": "2025-07-13T05:36:42.899295",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 10610
+  },
+  "node_1752385006": {
+    "timestamp": "2025-07-13T05:36:46.900231",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 41231
+  },
+  "node_1752385010": {
+    "timestamp": "2025-07-13T05:36:50.901153",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 129
+  },
+  "node_1752385014": {
+    "timestamp": "2025-07-13T05:36:54.902221",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 4454
+  },
+  "node_1752385018": {
+    "timestamp": "2025-07-13T05:36:58.903257",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 32690
+  },
+  "node_1752385022": {
+    "timestamp": "2025-07-13T05:37:02.904245",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 12418
+  },
+  "node_1752385026": {
+    "timestamp": "2025-07-13T05:37:06.905398",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 62027
+  },
+  "node_1752385030": {
+    "timestamp": "2025-07-13T05:37:10.906566",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 99124
+  },
+  "node_1752385034": {
+    "timestamp": "2025-07-13T05:37:14.907792",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 57287
+  },
+  "node_1752385038": {
+    "timestamp": "2025-07-13T05:37:18.908959",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 25562
+  },
+  "node_1752385042": {
+    "timestamp": "2025-07-13T05:37:22.910640",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 18678
+  },
+  "node_1752385046": {
+    "timestamp": "2025-07-13T05:37:26.911780",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 44034
+  },
+  "node_1752385050": {
+    "timestamp": "2025-07-13T05:37:30.913467",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 2492
+  },
+  "node_1752385054": {
+    "timestamp": "2025-07-13T05:37:34.914741",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 70753
+  },
+  "node_1752385058": {
+    "timestamp": "2025-07-13T05:37:38.915845",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 76563
+  },
+  "node_1752385062": {
+    "timestamp": "2025-07-13T05:37:42.917326",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 99143
+  },
+  "node_1752385066": {
+    "timestamp": "2025-07-13T05:37:46.918905",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 50639
+  },
+  "node_1752385070": {
+    "timestamp": "2025-07-13T05:37:50.920409",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 84751
+  },
+  "node_1752385074": {
+    "timestamp": "2025-07-13T05:37:54.921683",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 45905
+  },
+  "node_1752385078": {
+    "timestamp": "2025-07-13T05:37:58.923099",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 82931
+  },
+  "node_1752385082": {
+    "timestamp": "2025-07-13T05:38:02.924293",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 46190
+  },
+  "node_1752385086": {
+    "timestamp": "2025-07-13T05:38:06.925965",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 27855
+  },
+  "node_1752385090": {
+    "timestamp": "2025-07-13T05:38:10.927122",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 47478
+  },
+  "node_1752385094": {
+    "timestamp": "2025-07-13T05:38:14.928416",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 59038
+  },
+  "node_1752385098": {
+    "timestamp": "2025-07-13T05:38:18.929853",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 64208
+  },
+  "node_1752385102": {
+    "timestamp": "2025-07-13T05:38:22.931103",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 76548
+  },
+  "node_1752385106": {
+    "timestamp": "2025-07-13T05:38:26.932271",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 92657
+  },
+  "node_1752385110": {
+    "timestamp": "2025-07-13T05:38:30.933548",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 61310
+  },
+  "node_1752385114": {
+    "timestamp": "2025-07-13T05:38:34.934936",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 11788
+  },
+  "node_1752385118": {
+    "timestamp": "2025-07-13T05:38:38.936267",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 95406
+  },
+  "node_1752385122": {
+    "timestamp": "2025-07-13T05:38:42.937709",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 77050
+  },
+  "node_1752385126": {
+    "timestamp": "2025-07-13T05:38:46.939081",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 22748
+  },
+  "node_1752385130": {
+    "timestamp": "2025-07-13T05:38:50.940447",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 76291
+  },
+  "node_1752385134": {
+    "timestamp": "2025-07-13T05:38:54.941812",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 35836
+  },
+  "node_1752385138": {
+    "timestamp": "2025-07-13T05:38:58.943233",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 39420
+  },
+  "node_1752385142": {
+    "timestamp": "2025-07-13T05:39:02.944504",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 54065
+  },
+  "node_1752385146": {
+    "timestamp": "2025-07-13T05:39:06.945646",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 33431
+  },
+  "node_1752385150": {
+    "timestamp": "2025-07-13T05:39:10.947054",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 32240
+  },
+  "node_1752385154": {
+    "timestamp": "2025-07-13T05:39:14.948517",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 14917
+  },
+  "node_1752385158": {
+    "timestamp": "2025-07-13T05:39:18.949977",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 62361
+  },
+  "node_1752385162": {
+    "timestamp": "2025-07-13T05:39:22.951447",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 24214
+  },
+  "node_1752385166": {
+    "timestamp": "2025-07-13T05:39:26.953107",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 88789
+  },
+  "node_1752385170": {
+    "timestamp": "2025-07-13T05:39:30.954847",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 92580
+  },
+  "node_1752385174": {
+    "timestamp": "2025-07-13T05:39:34.956252",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 33690
+  },
+  "node_1752385178": {
+    "timestamp": "2025-07-13T05:39:38.957801",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 29602
+  },
+  "node_1752385182": {
+    "timestamp": "2025-07-13T05:39:42.959229",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 99292
+  },
+  "node_1752385186": {
+    "timestamp": "2025-07-13T05:39:46.960733",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 74249
+  },
+  "node_1752385190": {
+    "timestamp": "2025-07-13T05:39:50.962217",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 1161
+  },
+  "node_1752385194": {
+    "timestamp": "2025-07-13T05:39:54.963731",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 85194
+  },
+  "node_1752385198": {
+    "timestamp": "2025-07-13T05:39:58.965394",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 81370
+  },
+  "node_1752385202": {
+    "timestamp": "2025-07-13T05:40:02.966931",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 25898
+  },
+  "node_1752385206": {
+    "timestamp": "2025-07-13T05:40:06.968452",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 97958
+  },
+  "node_1752385210": {
+    "timestamp": "2025-07-13T05:40:10.969716",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 16805
+  },
+  "node_1752385214": {
+    "timestamp": "2025-07-13T05:40:14.971082",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 79588
+  },
+  "node_1752385218": {
+    "timestamp": "2025-07-13T05:40:18.972682",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 41174
+  },
+  "node_1752385222": {
+    "timestamp": "2025-07-13T05:40:22.974256",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 1341
+  },
+  "node_1752385226": {
+    "timestamp": "2025-07-13T05:40:26.976087",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 62174
+  },
+  "node_1752385230": {
+    "timestamp": "2025-07-13T05:40:30.977587",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 94454
+  },
+  "node_1752385234": {
+    "timestamp": "2025-07-13T05:40:34.979383",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 79247
+  },
+  "node_1752385238": {
+    "timestamp": "2025-07-13T05:40:38.981143",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 89556
+  },
+  "node_1752385242": {
+    "timestamp": "2025-07-13T05:40:42.982937",
+    "node": "GhostMedic",
+    "status": "repairing",
+    "uptime_secs": 8713
+  },
+  "node_1752385246": {
+    "timestamp": "2025-07-13T05:40:46.984837",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 70631
+  },
+  "node_1752385250": {
+    "timestamp": "2025-07-13T05:40:50.986498",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 86241
+  },
+  "node_1752385254": {
+    "timestamp": "2025-07-13T05:40:54.990149",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 2546
+  },
+  "node_1752385258": {
+    "timestamp": "2025-07-13T05:40:58.992122",
+    "node": "GhostProgrammer",
+    "status": "spiking entropy",
+    "uptime_secs": 92133
+  },
+  "node_1752385262": {
+    "timestamp": "2025-07-13T05:41:02.993873",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 74300
+  },
+  "node_1752385266": {
+    "timestamp": "2025-07-13T05:41:06.995624",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 45902
+  },
+  "node_1752385270": {
+    "timestamp": "2025-07-13T05:41:10.997403",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 51501
+  },
+  "node_1752385274": {
+    "timestamp": "2025-07-13T05:41:14.999390",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 90186
+  },
+  "node_1752385279": {
+    "timestamp": "2025-07-13T05:41:19.001401",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 456
+  },
+  "node_1752385283": {
+    "timestamp": "2025-07-13T05:41:23.003736",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 28219
+  },
+  "node_1752385287": {
+    "timestamp": "2025-07-13T05:41:27.005759",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 52068
+  },
+  "node_1752385291": {
+    "timestamp": "2025-07-13T05:41:31.007850",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 83942
+  },
+  "node_1752385295": {
+    "timestamp": "2025-07-13T05:41:35.009698",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 18591
+  },
+  "node_1752385299": {
+    "timestamp": "2025-07-13T05:41:39.011432",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 54561
+  },
+  "node_1752385303": {
+    "timestamp": "2025-07-13T05:41:43.013152",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 79218
+  },
+  "node_1752385307": {
+    "timestamp": "2025-07-13T05:41:47.015079",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 95704
+  },
+  "node_1752385311": {
+    "timestamp": "2025-07-13T05:41:51.016771",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 18309
+  },
+  "node_1752385315": {
+    "timestamp": "2025-07-13T05:41:55.018500",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 66420
+  },
+  "node_1752385319": {
+    "timestamp": "2025-07-13T05:41:59.020549",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 54088
+  },
+  "node_1752385323": {
+    "timestamp": "2025-07-13T05:42:03.022332",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 95387
+  },
+  "node_1752385327": {
+    "timestamp": "2025-07-13T05:42:07.024572",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 52558
+  },
+  "node_1752385331": {
+    "timestamp": "2025-07-13T05:42:11.027462",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 88348
+  },
+  "node_1752385335": {
+    "timestamp": "2025-07-13T05:42:15.029583",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 67927
+  },
+  "node_1752385339": {
+    "timestamp": "2025-07-13T05:42:19.031725",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 28626
+  },
+  "node_1752385343": {
+    "timestamp": "2025-07-13T05:42:23.033537",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 38407
+  },
+  "node_1752385347": {
+    "timestamp": "2025-07-13T05:42:27.035400",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 39206
+  },
+  "node_1752385351": {
+    "timestamp": "2025-07-13T05:42:31.037068",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 42594
+  },
+  "node_1752385355": {
+    "timestamp": "2025-07-13T05:42:35.038933",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 10352
+  },
+  "node_1752385359": {
+    "timestamp": "2025-07-13T05:42:39.041139",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 15114
+  },
+  "node_1752385363": {
+    "timestamp": "2025-07-13T05:42:43.042867",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 67488
+  },
+  "node_1752385367": {
+    "timestamp": "2025-07-13T05:42:47.044687",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 12309
+  },
+  "node_1752385371": {
+    "timestamp": "2025-07-13T05:42:51.046663",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 72882
+  },
+  "node_1752385375": {
+    "timestamp": "2025-07-13T05:42:55.048602",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 57373
+  },
+  "node_1752385379": {
+    "timestamp": "2025-07-13T05:42:59.050256",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 8270
+  },
+  "node_1752385383": {
+    "timestamp": "2025-07-13T05:43:03.052112",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 23434
+  },
+  "node_1752385387": {
+    "timestamp": "2025-07-13T05:43:07.053890",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 47917
+  },
+  "node_1752385391": {
+    "timestamp": "2025-07-13T05:43:11.056168",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 58218
+  },
+  "node_1752385395": {
+    "timestamp": "2025-07-13T05:43:15.058145",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 36573
+  },
+  "node_1752385399": {
+    "timestamp": "2025-07-13T05:43:19.059954",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 17347
+  },
+  "node_1752385403": {
+    "timestamp": "2025-07-13T05:43:23.062378",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 24352
+  },
+  "node_1752385407": {
+    "timestamp": "2025-07-13T05:43:27.064609",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 47616
+  },
+  "node_1752385411": {
+    "timestamp": "2025-07-13T05:43:31.066524",
+    "node": "GhostProgrammer",
+    "status": "spiking entropy",
+    "uptime_secs": 88877
+  },
+  "node_1752385415": {
+    "timestamp": "2025-07-13T05:43:35.068567",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 9868
+  },
+  "node_1752385419": {
+    "timestamp": "2025-07-13T05:43:39.070680",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 83982
+  },
+  "node_1752385423": {
+    "timestamp": "2025-07-13T05:43:43.072475",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 83329
+  },
+  "node_1752385427": {
+    "timestamp": "2025-07-13T05:43:47.074672",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 84404
+  },
+  "node_1752385431": {
+    "timestamp": "2025-07-13T05:43:51.076951",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 44016
+  },
+  "node_1752385435": {
+    "timestamp": "2025-07-13T05:43:55.079204",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 94466
+  },
+  "node_1752385439": {
+    "timestamp": "2025-07-13T05:43:59.081767",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 21442
+  },
+  "node_1752385443": {
+    "timestamp": "2025-07-13T05:44:03.084048",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 2863
+  },
+  "node_1752385447": {
+    "timestamp": "2025-07-13T05:44:07.085809",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 57278
+  },
+  "node_1752385451": {
+    "timestamp": "2025-07-13T05:44:11.087606",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 53025
+  },
+  "node_1752385455": {
+    "timestamp": "2025-07-13T05:44:15.089950",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 46523
+  },
+  "node_1752385459": {
+    "timestamp": "2025-07-13T05:44:19.092089",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 50661
+  },
+  "node_1752385463": {
+    "timestamp": "2025-07-13T05:44:23.094416",
+    "node": "GhostMedic",
+    "status": "building",
+    "uptime_secs": 9107
+  },
+  "node_1752385467": {
+    "timestamp": "2025-07-13T05:44:27.096620",
+    "node": "SwarmBuilder",
+    "status": "idle",
+    "uptime_secs": 53529
+  },
+  "node_1752385471": {
+    "timestamp": "2025-07-13T05:44:31.098888",
+    "node": "Bridge",
+    "status": "repairing",
+    "uptime_secs": 31504
+  },
+  "node_1752385475": {
+    "timestamp": "2025-07-13T05:44:35.101277",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 13499
+  },
+  "node_1752385479": {
+    "timestamp": "2025-07-13T05:44:39.103765",
+    "node": "Bridge",
+    "status": "spiking entropy",
+    "uptime_secs": 64588
+  },
+  "node_1752385483": {
+    "timestamp": "2025-07-13T05:44:43.105648",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 13975
+  },
+  "node_1752385487": {
+    "timestamp": "2025-07-13T05:44:47.107660",
+    "node": "SwarmBuilder",
+    "status": "repairing",
+    "uptime_secs": 93956
+  },
+  "node_1752385491": {
+    "timestamp": "2025-07-13T05:44:51.110012",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 72367
+  },
+  "node_1752385495": {
+    "timestamp": "2025-07-13T05:44:55.113420",
+    "node": "SwarmBuilder",
+    "status": "spiking entropy",
+    "uptime_secs": 52662
+  },
+  "node_1752385499": {
+    "timestamp": "2025-07-13T05:44:59.117250",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 46555
+  },
+  "node_1752385503": {
+    "timestamp": "2025-07-13T05:45:03.119473",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 7817
+  },
+  "node_1752385507": {
+    "timestamp": "2025-07-13T05:45:07.121353",
+    "node": "GhostProgrammer",
+    "status": "idle",
+    "uptime_secs": 22914
+  },
+  "node_1752385511": {
+    "timestamp": "2025-07-13T05:45:11.124789",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 32490
+  },
+  "node_1752385515": {
+    "timestamp": "2025-07-13T05:45:15.127698",
+    "node": "GhostMedic",
+    "status": "spiking entropy",
+    "uptime_secs": 26528
+  },
+  "node_1752385519": {
+    "timestamp": "2025-07-13T05:45:19.129692",
+    "node": "SwarmBuilder",
+    "status": "building",
+    "uptime_secs": 40519
+  },
+  "node_1752385523": {
+    "timestamp": "2025-07-13T05:45:23.131901",
+    "node": "Bridge",
+    "status": "idle",
+    "uptime_secs": 18155
+  },
+  "node_1752385527": {
+    "timestamp": "2025-07-13T05:45:27.134585",
+    "node": "Bridge",
+    "status": "building",
+    "uptime_secs": 77724
+  },
+  "node_1752385531": {
+    "timestamp": "2025-07-13T05:45:31.137864",
+    "node": "GhostProgrammer",
+    "status": "building",
+    "uptime_secs": 15328
+  }
+}

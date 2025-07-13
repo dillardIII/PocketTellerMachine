@@ -1,0 +1,3 @@
+Brain: {'greed': 27, 'speed': 34, 'pattern_lock': 43, 'exploit_focus': 16, 'wallet_memory': 13}
+Mood: {'current_mood': 'paranoid'}
+Mission: Dive deeper, hunt anomalies, scrape new wallets, escalate.

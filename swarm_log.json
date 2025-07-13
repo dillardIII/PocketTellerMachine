@@ -1,0 +1,76 @@
+2025-07-13T01:36:20.599079 - ❌ main.py: 404
+2025-07-13T01:36:21.087986 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:36:21.579771 - ❌ vault_manager.py: 404
+2025-07-13T01:36:22.643823 - ❌ main.py: 404
+2025-07-13T01:36:23.131908 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:36:23.623229 - ❌ vault_manager.py: 404
+2025-07-13T01:36:24.686447 - ❌ main.py: 404
+2025-07-13T01:36:25.175086 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:36:25.671425 - ❌ vault_manager.py: 404
+2025-07-13T01:36:26.732498 - ❌ main.py: 404
+2025-07-13T01:36:27.218872 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:36:27.715795 - ❌ vault_manager.py: 404
+2025-07-13T01:36:28.775722 - ❌ main.py: 404
+2025-07-13T01:36:29.262556 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:36:29.762373 - ❌ vault_manager.py: 404
+2025-07-13T01:36:30.775988 - 💀 main.py failed after retries
+2025-07-13T01:36:31.262807 - 💀 autonomy_trigger_stack.py failed after retries
+2025-07-13T01:36:31.762612 - 💀 vault_manager.py failed after retries
+2025-07-13T01:36:31.763654 - 🚀 Savage swarm rebuild complete.
+2025-07-13T01:43:05.133793 - ❌ main.py: 404
+2025-07-13T01:43:05.616199 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:43:06.110387 - ❌ vault_manager.py: 404
+2025-07-13T01:43:07.180221 - ❌ main.py: 404
+2025-07-13T01:43:07.660533 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:43:08.153233 - ❌ vault_manager.py: 404
+2025-07-13T01:43:09.224221 - ❌ main.py: 404
+2025-07-13T01:43:09.703437 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:43:10.195886 - ❌ vault_manager.py: 404
+2025-07-13T01:43:11.266524 - ❌ main.py: 404
+2025-07-13T01:43:11.746777 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:43:12.239790 - ❌ vault_manager.py: 404
+2025-07-13T01:43:13.310251 - ❌ main.py: 404
+2025-07-13T01:43:13.795907 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:43:14.298947 - ❌ vault_manager.py: 404
+2025-07-13T01:43:15.312225 - 💀 main.py failed after retries
+2025-07-13T01:43:15.796277 - 💀 autonomy_trigger_stack.py failed after retries
+2025-07-13T01:43:16.299370 - 💀 vault_manager.py failed after retries
+2025-07-13T01:43:16.300109 - 🚀 Savage swarm rebuild complete.
+2025-07-13T01:46:58.373368 - ❌ main.py: 404
+2025-07-13T01:46:58.877252 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:46:59.378219 - ❌ vault_manager.py: 404
+2025-07-13T01:47:00.419024 - ❌ main.py: 404
+2025-07-13T01:47:00.925176 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:47:01.420462 - ❌ vault_manager.py: 404
+2025-07-13T01:47:02.462758 - ❌ main.py: 404
+2025-07-13T01:47:02.969750 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:47:03.468760 - ❌ vault_manager.py: 404
+2025-07-13T01:47:04.517374 - ❌ main.py: 404
+2025-07-13T01:47:05.014507 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:47:05.514472 - ❌ vault_manager.py: 404
+2025-07-13T01:47:06.563185 - ❌ main.py: 404
+2025-07-13T01:47:07.058179 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:47:07.566091 - ❌ vault_manager.py: 404
+2025-07-13T01:47:08.563439 - 💀 main.py failed after retries
+2025-07-13T01:47:09.058578 - 💀 autonomy_trigger_stack.py failed after retries
+2025-07-13T01:47:09.566341 - 💀 vault_manager.py failed after retries
+2025-07-13T01:47:09.567140 - 🚀 Savage swarm rebuild complete.
+2025-07-13T01:49:13.290155 - ❌ main.py: 404
+2025-07-13T01:49:13.774987 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:49:14.274236 - ❌ vault_manager.py: 404
+2025-07-13T01:49:15.338961 - ❌ main.py: 404
+2025-07-13T01:49:15.821509 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:49:16.319523 - ❌ vault_manager.py: 404
+2025-07-13T01:49:17.381851 - ❌ main.py: 404
+2025-07-13T01:49:17.867095 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:49:18.362977 - ❌ vault_manager.py: 404
+2025-07-13T01:49:19.426323 - ❌ main.py: 404
+2025-07-13T01:49:19.909695 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:49:20.409136 - ❌ vault_manager.py: 404
+2025-07-13T01:49:21.476220 - ❌ main.py: 404
+2025-07-13T01:49:21.955632 - ❌ autonomy_trigger_stack.py: 404
+2025-07-13T01:49:22.454640 - ❌ vault_manager.py: 404
+2025-07-13T01:49:23.476457 - 💀 main.py failed after retries
+2025-07-13T01:49:23.955879 - 💀 autonomy_trigger_stack.py failed after retries
+2025-07-13T01:49:24.454872 - 💀 vault_manager.py failed after retries
+2025-07-13T01:49:24.455517 - 🚀 Savage swarm rebuild complete.

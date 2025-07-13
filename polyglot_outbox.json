@@ -1,0 +1,26 @@
+[
+  {
+    "time": "2025-07-13T06:36:27.588426",
+    "android_macro": "trigger dark mode & start trading overlay",
+    "pc_script": "run defense_sweep.bat",
+    "bot_directive": "update vault and ping emotional stabilizers"
+  },
+  {
+    "time": "2025-07-13T06:36:47.588827",
+    "android_macro": "trigger dark mode & start trading overlay",
+    "pc_script": "run defense_sweep.bat",
+    "bot_directive": "update vault and ping emotional stabilizers"
+  },
+  {
+    "time": "2025-07-13T06:37:07.589333",
+    "android_macro": "trigger dark mode & start trading overlay",
+    "pc_script": "run defense_sweep.bat",
+    "bot_directive": "update vault and ping emotional stabilizers"
+  },
+  {
+    "time": "2025-07-13T06:37:27.589899",
+    "android_macro": "trigger dark mode & start trading overlay",
+    "pc_script": "run defense_sweep.bat",
+    "bot_directive": "update vault and ping emotional stabilizers"
+  }
+]

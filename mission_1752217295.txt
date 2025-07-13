@@ -1,0 +1,3 @@
+Brain: {'greed': 15, 'speed': 19, 'pattern_lock': 26, 'exploit_focus': 12, 'wallet_memory': 13}
+Mood: {'current_mood': 'lethargic'}
+Mission: Dive deeper, hunt anomalies, scrape new wallets, escalate.

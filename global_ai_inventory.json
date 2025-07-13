@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-07-13T00:59:29.450720Z",
+  "bots": {
+    "GhostMedic": {
+      "status": "NOT_FOUND"
+    },
+    "PTM": {
+      "status": "NOT_FOUND"
+    },
+    "GhostProgrammer": {
+      "status": "NOT_FOUND"
+    }
+  },
+  "missing_files": [
+    "bridge_launcher.py",
+    "drop_agent.py",
+    "pickup_agent.py",
+    "file_exec_engine.py",
+    "hunter_rpc.py",
+    "sweep_handler.py",
+    "self_rebuild_watcher.py",
+    "mood_engine.py",
+    "self_rating_logic.py",
+    "self_preservation_logic.py",
+    "ghost_brain_upgrade.py",
+    "ghost_emotion_engine.py",
+    "ghost_mission_writer.py",
+    "ghost_autocoder.py",
+    "ghost_deepweb_scraper.py",
+    "quantum_entropy_initializer.py",
+    "command_listener.py",
+    "whisper_autolistener.py"
+  ],
+  "alerts": [
+    "GhostMedic directory missing!",
+    "PTM directory missing!",
+    "GhostProgrammer directory missing!",
+    "\ud83d\udea8 Missing autonomy file: bridge_launcher.py",
+    "\ud83d\udea8 Missing autonomy file: drop_agent.py",
+    "\ud83d\udea8 Missing autonomy file: pickup_agent.py",
+    "\ud83d\udea8 Missing autonomy file: file_exec_engine.py",
+    "\ud83d\udea8 Missing autonomy file: hunter_rpc.py",
+    "\ud83d\udea8 Missing autonomy file: sweep_handler.py",
+    "\ud83d\udea8 Missing autonomy file: self_rebuild_watcher.py",
+    "\ud83d\udea8 Missing autonomy file: mood_engine.py",
+    "\ud83d\udea8 Missing autonomy file: self_rating_logic.py",
+    "\ud83d\udea8 Missing autonomy file: self_preservation_logic.py",
+    "\ud83d\udea8 Missing autonomy file: ghost_brain_upgrade.py",
+    "\ud83d\udea8 Missing autonomy file: ghost_emotion_engine.py",
+    "\ud83d\udea8 Missing autonomy file: ghost_mission_writer.py",
+    "\ud83d\udea8 Missing autonomy file: ghost_autocoder.py",
+    "\ud83d\udea8 Missing autonomy file: ghost_deepweb_scraper.py",
+    "\ud83d\udea8 Missing autonomy file: quantum_entropy_initializer.py",
+    "\ud83d\udea8 Missing autonomy file: command_listener.py",
+    "\ud83d\udea8 Missing autonomy file: whisper_autolistener.py"
+  ]
+}

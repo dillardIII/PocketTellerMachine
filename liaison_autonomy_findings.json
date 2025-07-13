@@ -1,0 +1,106 @@
+[
+  {
+    "file": "ptm_clone/config.py",
+    "preview": "\"\"\"\nConfiguration Management for GhostMedic AI Commander Bot\n\nHandles configuration loading, validation, and management.\n\"\"\"\n\nimport json\nimport os\nimport logging\nfrom typing import Dict, Any, Optiona"
+  },
+  {
+    "file": "ptm_clone/full_autonomy_launcher.py",
+    "preview": "#!/usr/bin/env python3\n\"\"\"\nFULL AUTONOMY LAUNCHER\n- Launches your entire savage empire stack\n- Includes PTM ping watcher to keep PTM out of recovery mode\n- Unreal, Render, Tasker, Quantum, PEWAC, Ghos"
+  },
+  {
+    "file": "ptm_clone/ghost_ai_resync_stack.py",
+    "preview": "#!/usr/bin/env python3\n\nimport os\nimport subprocess\nimport time\n\ndef log(msg):\n    print(f\"[GhostResync] {msg}\")\n\ndef reinstall_requests():\n    log(\"\ud83d\ude80 Reinstalling requests...\")\n    subprocess.run([\"p"
+  },
+  {
+    "file": "ptm_clone/ghostfilter_overlay.py",
+    "preview": "# === FILE: ghostfilter_overlay.py ===\nprint(\"[GhostFilter] \ud83d\udc40 Overlay running. Watching for anomalies in media streams...\")\nwhile True:\n    time.sleep(5)\n    print(\"[GhostFilter] \ud83d\udd2c Detected normal. Ke"
+  },
+  {
+    "file": "ptm_clone/ghostforge_writer.py",
+    "preview": "#!/usr/bin/env python3\n\"\"\"\nGhostForge Writer\n- Fully automated git committer and Render deployer\n- Uses secrets from .env file for security\n\"\"\"\n\nimport os\nimport subprocess\nimport time\nfrom dotenv imp"
+  },
+  {
+    "file": "ptm_clone/ghostmacro_orchestrator.py",
+    "preview": "# === FILE: ghostmacro_orchestrator.py ===\nimport json\nimport time\n\ntry:\n    with open(\"ai_manifest.json\", \"r\") as f:\n        ai_manifest = json.load(f)\nexcept:\n    ai_manifest = []\n\nprint(\"[MacroOrch"
+  },
+  {
+    "file": "ptm_clone/god_mode_launcher.py",
+    "preview": "# === FILE: god_mode_launcher.py ===\nimport threading\nimport os\nimport time\n\n# Map each savage core to launch\nsavage_scripts = [\n    \"savage_ai_inventory.py\",\n    \"ghostmacro_orchestrator.py\",\n    \"gl"
+  },
+  {
+    "file": "ptm_clone/ptm_final_savage_override.py",
+    "preview": "# === FILE: ptm_final_savage_override.py ===\n# \ud83d\udd25 Savage Kill Stack \u2013 forces PTM out of recovery no matter what\nimport os\nimport json\nimport subprocess\nimport time\n\ndef nuke_json_file(path, content):\n "
+  },
+  {
+    "file": "ptm_clone/ptm_hard_override.py",
+    "preview": "# === FILE: ptm_hard_override.py ===\n# \ud83d\udca3 Savage Nuclear Override \u2013 forcibly rips PTM out of recovery mode\n\nimport json\nimport os\nimport subprocess\nimport time\n\ndef nuke_file(path, default_data):\n    w"
+  },
+  {
+    "file": "ptm_clone/ptm_ping_watcher.py",
+    "preview": "#!/usr/bin/env python3\n\"\"\"\nPTM Live Ping Watcher\n- Keeps an eye on PTM health\n- If recovery mode detected, triggers self-heal\n- Logs results for your empire\n\"\"\"\n\nimport json\nimport time\nimport os\nfrom"
+  },
+  {
+    "file": "ptm_clone/ptm_savage_swarm.py",
+    "preview": "#!/usr/bin/env python3\nimport threading\nimport requests\nimport json\nimport os\nimport time\nfrom datetime import datetime\n\nPTM_FILES = {\n    \"main.py\": \"https://raw.githubusercontent.com/dillardIII/Pock"
+  },
+  {
+    "file": "ptm_clone/ptm_self_rebuilder.py",
+    "preview": "#!/usr/bin/env python3\nimport requests\nimport json\nimport os\nimport time\nfrom datetime import datetime\n\n# === CONFIG ===\nPTM_FILES = {\n    \"main.py\": \"https://raw.githubusercontent.com/dillardIII/Pock"
+  },
+  {
+    "file": "ptm_clone/quantum_brain_link.py",
+    "preview": "# === FILE: quantum_brain_link.py ===\n# \ud83e\udde0 Quantum Brain Link \u2013 loads all AIs into GhostMedic\n\nimport json\nfrom datetime import datetime\n\ntry:\n    with open(\"ai_manifest.json\", \"r\") as f:\n        ai_li"
+  },
+  {
+    "file": "ptm_clone/quantum_keyhunter.py",
+    "preview": "# === FILE: quantum_keyhunter.py ===\nimport time\nimport random\n\nprint(\"[QuantumKeyHunter] \ud83d\udd25 Starting savage quantum hybrid attacks...\")\nwhile True:\n    attempt = random.getrandbits(256)\n    print(f\"[Q"
+  },
+  {
+    "file": "ptm_clone/savage_auto_healer.py",
+    "preview": "# === FILE: savage_auto_healer.py ===\n# \ud83e\ude79 Savage Auto-Healer \u2013 scans for issues & restarts broken modules\n\nimport os\nimport json\nimport subprocess\nimport time\n\ndef check_json_file(filepath):\n    try:\n"
+  },
+  {
+    "file": "ptm_clone/savage_auto_launcher.py",
+    "preview": "# === FILE: savage_auto_launcher.py ===\n# \ud83d\ude80 Savage God Mode Auto-Launcher for Jarvis+ PTM\nimport os\nimport json\nimport shutil\nimport threading\nimport time\nfrom datetime import datetime\n\n# === Quantum "
+  },
+  {
+    "file": "ptm_clone/savage_superloop.py",
+    "preview": "# === FILE: savage_superloop.py ===\n# \ud83e\uddec Savage Superloop \u2013 cycles all core systems forever\n\nimport subprocess\nimport time\n\nMODULES = [\n    \"ghostforge_writer.py\",\n    \"ghost_ai_bridge.py\",\n    \"quantu"
+  },
+  {
+    "file": "ptm_clone/self_mutator.py",
+    "preview": "import random\nimport json\nimport time\n\nTARGET_FILE = \"ghostmedic.py\"\nLOG_FILE = \"mutation_log.json\"\n\ndef generate_random_function():\n    func_name = f\"auto_func_{random.randint(1000, 9999)}\"\n    retur"
+  },
+  {
+    "file": "ptm_clone/unreal_bridge.py",
+    "preview": "import socket, json, time\n\ndef start_bridge():\n    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    sock.bind((\"0.0.0.0\", 5566))\n    sock.listen(5)\n    print(\"\ud83c\udfae Unreal Engine Bridge listen"
+  },
+  {
+    "file": "ptm_clone/generated_ai_modules/ghost_1752066803.py",
+    "preview": "def auto_patch():\n    print('Auto-patched ghost_1752066803.py')\n"
+  },
+  {
+    "file": "ptm_clone/generated_ai_modules/ghost_1752067110.py",
+    "preview": "def auto_patch():\n    print('Auto-patched ghost_1752067110.py')\n"
+  },
+  {
+    "file": "ptm_clone/generated_ai_modules/ghost_1752067188.py",
+    "preview": "def auto_patch():\n    print('Auto-patched ghost_1752067188.py')\n"
+  },
+  {
+    "file": "ptm_clone/generated_ai_modules/ghost_1752067289.py",
+    "preview": "def auto_patch():\n    print('Auto-patched ghost_1752067289.py')\n"
+  },
+  {
+    "file": "ptm_clone/generated_modules/ghost_1752095380.py",
+    "preview": "# Ghost mutation at Wed Jul  9 21:09:40 2025\nprint('\ud83d\udc7b New ghost mutation active')\n"
+  },
+  {
+    "file": "ptm_clone/ghostmedic/logger.py",
+    "preview": "\"\"\"\nLogging configuration for GhostMedic AI Commander Bot\n\nCentralized logging setup and configuration.\n\"\"\"\n\nimport logging\nimport logging.handlers\nimport os\nimport sys\nfrom typing import Optional\nfro"
+  },
+  {
+    "file": "ptm_clone/tests/test_core.py",
+    "preview": "\"\"\"\nUnit tests for GhostMedic core functionality\n\"\"\"\n\nimport unittest\nimport tempfile\nimport os\nimport json\nfrom unittest.mock import Mock, patch, MagicMock\nimport threading\nimport time\n\n# Import modu"
+  }
+]
