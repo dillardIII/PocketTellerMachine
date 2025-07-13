@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-13T11:34:19.677000",
+  "timestamp": "2025-07-13T11:34:24.737820",
   "files": {
     "quantum_shards.json": 24487,
-    "sync_mesh.json": 28968,
-    "macro_queue.json": 1672,
-    "vault_status.json": 170
+    "sync_mesh.json": 29115,
+    "macro_queue.json": 115,
+    "vault_status.json": 15
   },
   "dirs": {
     "inbox": 0,

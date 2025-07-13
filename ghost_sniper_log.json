@@ -30,5 +30,45 @@
       "profit": 1.81
     },
     "timestamp": 1752406452.4260187
+  },
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "DOGE/USDT",
+      "diff": 1.2
+    },
+    "timestamp": 1752406465.4686415
+  },
+  {
+    "source": "flashloan",
+    "data": {
+      "target": "Aave",
+      "profit": 3.7
+    },
+    "timestamp": 1752406465.966107
+  },
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "LINK/ETH",
+      "diff": 0.7
+    },
+    "timestamp": 1752406466.2567148
+  },
+  {
+    "source": "arbitrage",
+    "data": {
+      "pair": "DOGE/USDT",
+      "diff": 1.2
+    },
+    "timestamp": 1752406466.3964472
+  },
+  {
+    "source": "flashloan",
+    "data": {
+      "target": "UniswapV3",
+      "profit": 1.63
+    },
+    "timestamp": 1752406466.4191644
   }
 ]

@@ -1138,5 +1138,17 @@
     "node": "GhostMedic",
     "status": "idle",
     "uptime_secs": 1911
+  },
+  "node_1752406466": {
+    "timestamp": "2025-07-13T11:34:26.670416",
+    "node": "GhostMedic",
+    "status": "idle",
+    "uptime_secs": 93843
+  },
+  "node_1752406470": {
+    "timestamp": "2025-07-13T11:34:30.695830",
+    "node": "GhostProgrammer",
+    "status": "repairing",
+    "uptime_secs": 17504
   }
 }
