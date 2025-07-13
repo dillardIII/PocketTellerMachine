@@ -14,5 +14,21 @@
       "bounty": 2.81
     },
     "timestamp": 1752406452.489562
+  },
+  {
+    "source": "social",
+    "data": {
+      "platform": "discord",
+      "earned": 0.868
+    },
+    "timestamp": 1752406459.5055234
+  },
+  {
+    "source": "liquidation",
+    "data": {
+      "app": "PancakeSwap",
+      "bounty": 2.95
+    },
+    "timestamp": 1752406459.5239458
   }
 ]

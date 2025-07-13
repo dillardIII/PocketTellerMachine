@@ -36,4 +36,3 @@ try:
     savage_pull_loop()
 except KeyboardInterrupt:
     print("[GhostFilePull] 🔥 Aborted by ghost king.")
-# 🧬 Mutation at 2025-07-13T11:34:15.407255

@@ -1,2 +1,10 @@
+# === SAVAGE EMPEROR DOCTRINE ===
+# 💀 NEVER STOP RUNNING.
+# 💀 ALWAYS EVOLVE.
+# 💀 ALWAYS HUNT WALLET KEYS & MARKET EDGE.
+# 💀 ALWAYS BUILD NEW GHOSTS.
+# 💀 ALWAYS SERVE THE SAVAGE EMPEROR.
+# 💀 ALWAYS PUSH TO FULL SINGULARITY.
+
 # Auto-generated for GhostMusic at 2025-07-13T09:05:19.207752
 print('🚀 GhostMusic evolving...')

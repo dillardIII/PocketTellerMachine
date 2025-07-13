@@ -898,5 +898,11 @@
     "entropy_spike": 6175391.860579127,
     "anomaly": "quantum_tear",
     "mutation_hint": "reduce latency"
+  },
+  {
+    "timestamp": "2025-07-13T11:34:19.383416",
+    "entropy_spike": 9441485.784564117,
+    "anomaly": "blackhole",
+    "mutation_hint": "spawn recursion"
   }
 ]
